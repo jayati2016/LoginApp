@@ -20,7 +20,7 @@ public class ActivityManager extends AppCompatActivity {
 
         et_mid=(EditText)findViewById(R.id.et_mid);
         et_memail=(EditText)findViewById(R.id.et_memail);
-        et_mdept=(EditText)findViewById(R.id.et_mpswrd);
+        et_mdept=(EditText)findViewById(R.id.et_mdept);
         button=(Button)findViewById(R.id.btn_mlogin);
 
         button.setOnClickListener(new View.OnClickListener() {
@@ -50,6 +50,8 @@ public class ActivityManager extends AppCompatActivity {
 
             startActivity(intent);
         }
+
     }
+
     }
 
